@@ -10,8 +10,8 @@ export const ButtonStyles = {
     variants: {
         primary: (props: any) => ({
             bg: 'pryColor',
-            fontSize: '13px',
-            fontWeight: '700',
+            fontSize: '16px',
+            fontWeight: '600',
             lineHeight: '18px',
             color: 'white',
             height: '48px',
@@ -25,9 +25,9 @@ export const ButtonStyles = {
         secondary: (props: any) => ({
             bg: 'white',
             fontSize: '13px',
-            fontWeight: '700',
+            fontWeight: '600',
             lineHeight: '18px',
-            color: 'white',
+            color: 'black',
             height: '48px',
             padding: '16px 32px',
             borderRadius: '4px',

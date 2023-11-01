@@ -24,11 +24,10 @@ export const HeadingStyle = {
             letterSpacing: '2px',
         },
         h3: {
-            fontSize: '32px',
-            fontWeight: '700',
-            lineHeight: '36px',
+            fontSize: '24px',
+            fontWeight: '600',
+            lineHeight: '32px',
             color: colors.white,
-            letterSpacing: '2px',
         },
         h4: {
             fontSize: '28px',

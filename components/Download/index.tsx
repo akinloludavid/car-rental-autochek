@@ -11,11 +11,24 @@ const DownloadCard = () => {
                 padding='12px'
                 align={'center'}
                 justify='center'
+                p='12px'
+                gap='8px'
             >
-                <Icon as={AiFillApple} />
+                <Icon as={AiFillApple} fontSize='32px' />
                 <Box>
-                    <Text>Download on the</Text>
-                    <Heading>Apple Store</Heading>
+                    <Text fontSize={'12px'} color='black' textAlign={'left'}>
+                        Download on the
+                    </Text>
+                    <Heading
+                        variant={'h3'}
+                        as='h3'
+                        textAlign={'left'}
+                        fontSize={'18px'}
+                        lineHeight='12px'
+                        color='black'
+                    >
+                        Apple Store
+                    </Heading>
                 </Box>
             </Flex>
         )
@@ -28,11 +41,23 @@ const DownloadCard = () => {
                 padding='12px'
                 align={'center'}
                 justify='center'
+                gap='8px'
             >
-                <Icon as={FaGooglePlay} />
+                <Icon as={FaGooglePlay} fontSize='32px' />
                 <Box>
-                    <Text>Get it from</Text>
-                    <Heading>Google Play</Heading>
+                    <Text fontSize={'12px'} color='black' textAlign={'left'}>
+                        Get it from
+                    </Text>
+                    <Heading
+                        variant={'h3'}
+                        as='h3'
+                        fontSize={'18px'}
+                        lineHeight='12px'
+                        textAlign={'left'}
+                        color='black'
+                    >
+                        Google Play
+                    </Heading>
                 </Box>
             </Flex>
         )

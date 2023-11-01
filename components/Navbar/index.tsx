@@ -14,7 +14,7 @@ import { navLinks } from './data'
 import { nanoid } from 'nanoid'
 const Navbar = () => {
     return (
-        <Flex justify={'space-between'}>
+        <Flex justify={'space-between'} pt='24px'>
             <Link href='/'>
                 <Heading
                     variant={'h1'}
@@ -33,6 +33,7 @@ const Navbar = () => {
                     <NavLink
                         fontWeight={'500'}
                         as={Link}
+                        color='white'
                         key={nanoid()}
                         href={link.route}
                     >

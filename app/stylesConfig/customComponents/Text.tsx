@@ -13,8 +13,7 @@ export const TextStyle = {
             fontSize: '15px',
             fontWeight: '500',
             lineHeight: '25px',
-            color: colors.white,
-            opacity: '0.5',
+            color: colors.textColor,
             // letterSpacing: "10px",
         },
         lightText: {
@@ -28,7 +27,6 @@ export const TextStyle = {
             fontWeight: '500',
             lineHeight: '17px',
             letterSpacing: '1px',
-            color: colors.danger,
         },
     },
     // default values for `size` and `variant`

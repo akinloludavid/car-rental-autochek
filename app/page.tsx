@@ -1,8 +1,10 @@
 import BlogSection from '@/components/BlogsSection'
+import DownloadCta from '@/components/DownloadCta'
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
 import Navbar from '@/components/Navbar'
 import Testimonials from '@/components/Testimonials'
+import TopRated from '@/components/TopRated'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import { Flex } from '@chakra-ui/react'
 
@@ -10,7 +12,7 @@ export default function Home() {
     return (
         <main>
             <Flex
-                px='72px'
+                px='120px'
                 flexDir={'column'}
                 backgroundColor='#000000'
                 background='linear-gradient(45deg, #434343, #000000)'
@@ -18,8 +20,10 @@ export default function Home() {
                 <Navbar />
                 <HeroSection />
             </Flex>
+            <TopRated />
             <WhyChooseUs />
             <Testimonials />
+            <DownloadCta />
             <BlogSection />
             <Footer />
         </main>

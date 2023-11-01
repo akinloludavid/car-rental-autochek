@@ -1,10 +1,22 @@
-import { Box, Heading } from '@chakra-ui/react'
+import { Box, Grid, GridItem, Heading } from '@chakra-ui/react'
 import React from 'react'
+import BlogsCard from './BlogsCard'
+import { blogData } from './data'
+import { nanoid } from 'nanoid'
 
 const BlogSection = () => {
     return (
-        <Box>
-            <Heading textAlign={'center'}>Read Our Stories</Heading>
+        <Box pt='120px' pb='80px' px='120px' bgColor='secBgColor'>
+            <Heading textAlign={'center'} color='black' mb='60px'>
+                Read Our Stories
+            </Heading>
+            <Grid templateColumns={'repeat(3,1fr)'} gap='32px'>
+                {blogData.map(el => (
+                    <GridItem key={nanoid()}>
+                        <BlogsCard {...el} />
+                    </GridItem>
+                ))}
+            </Grid>
         </Box>
     )
 }
