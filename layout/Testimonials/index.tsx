@@ -9,15 +9,24 @@ import {
     Image,
     GridItem,
 } from '@chakra-ui/react'
+import { nanoid } from 'nanoid'
 import React from 'react'
 import { AiFillStar } from 'react-icons/ai'
 
 const Testimonials = () => {
     return (
         <Grid
-            templateColumns={'repeat(5,1fr)'}
-            padding='160px 120px'
+            templateColumns={[
+                'repeat(1,1fr)',
+                'repeat(2,1fr)',
+                'repeat(2,1fr)',
+                'repeat(2,1fr)',
+                'repeat(5,1fr)',
+            ]}
+            py='160px'
+            px={['24px', '72px', '120px']}
             bgColor={'mainBgColor'}
+            columnGap='24px'
         >
             <GridItem colSpan={2}>
                 <Flex flexDirection={'column'} gap='28px'>
@@ -39,7 +48,11 @@ const Testimonials = () => {
                     </Text>
                     <Flex align={'center'} gap='2px'>
                         {new Array(5).fill(0).map(el => (
-                            <Icon as={AiFillStar} color='pryColor' />
+                            <Icon
+                                key={nanoid()}
+                                as={AiFillStar}
+                                color='pryColor'
+                            />
                         ))}
                         <Text ml='8px'>5.0</Text>
                     </Flex>
@@ -58,7 +71,11 @@ const Testimonials = () => {
                     </Flex>
                 </Flex>
             </GridItem>
-            <GridItem alignItems={'center'} colSpan={3}>
+            <GridItem
+                display={['none', 'none', 'flex']}
+                alignItems={'center'}
+                colSpan={3}
+            >
                 <Image my='auto' src='/images/benz.png' />
             </GridItem>
         </Grid>

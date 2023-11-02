@@ -1,0 +1,22 @@
+.naira {
+    text-decoration: none;
+    position: relative;
+        color:black;
+
+}
+.naira:after {
+    content: ' ';
+    font-size: inherit;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 40%;
+    bottom: 40%;
+    border-top-color: black;
+    border-bottom-color:black;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style:solid;
+    border-bottom-style: solid;
+}

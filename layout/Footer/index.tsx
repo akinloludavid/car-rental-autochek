@@ -27,10 +27,19 @@ import { FaEnvelope } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <Box px='120px' bgColor='mainBgColor' py='36px'>
-            <Grid templateColumns={'repeat(7,1fr)'} gap='48px'>
+        <Box px={['24px', '72px', '120px']} bgColor='mainBgColor' py='36px'>
+            <Grid
+                templateColumns={[
+                    'repeat(1,1fr)',
+                    'repeat(1,1fr)',
+                    'repeat(2,1fr)',
+                    'repeat(2,1fr)',
+                    'repeat(7,1fr)',
+                ]}
+                gap='48px'
+            >
                 <GridItem
-                    colSpan={2}
+                    colSpan={{ sm: 1, md: 1, lg: 2 }}
                     display='flex'
                     flexDir={'column'}
                     justifyContent='center'
@@ -62,7 +71,6 @@ const Footer = () => {
                         ))}
                     </Flex>
                 </GridItem>
-
                 <GridItem colSpan={1}>
                     <Heading variant={'h6'} mb='36px'>
                         Resources
@@ -98,7 +106,7 @@ const Footer = () => {
                     </Flex>
                 </GridItem>
 
-                <GridItem colSpan={2}>
+                <GridItem colSpan={[1, 1, 2]}>
                     <Heading variant={'h6'} mb='36px'>
                         Connect with us
                     </Heading>

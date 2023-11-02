@@ -1,23 +1,28 @@
 'use client'
+import DownloadCard from '@/layout/Download'
 import { Box, Flex, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import React from 'react'
-import DownloadCard from '../Download'
 
 const DownloadCta = () => {
     return (
-        <Box px='180px' py='120px'>
+        <Box px={['24px', '72px', '180px']} py='120px'>
             <Flex
                 borderRadius={'8px'}
                 bgColor='mainBgColor'
-                px='80px'
+                px={['24px', '32px', '80px']}
                 py='80px'
+                flexDir={['column', 'column', 'row']}
             >
                 <Box>
-                    <Text fontSize={'32px'} mb='16px'>
+                    <Text fontSize={'32px'} lineHeight='32px' mb='16px'>
                         Download the free RentalX app
                     </Text>
-                    <Text mb='28px' w='60%' fontSize={'18px'}>
+                    <Text
+                        mb='28px'
+                        w={['100%', '100%', '60%']}
+                        fontSize={'18px'}
+                    >
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Laborum blanditiis aliquam, debitis illum eius
                         dolorum

@@ -19,7 +19,7 @@ export const ButtonStyles = {
             borderRadius: '4px',
 
             '@media (max-width:480px)': {
-                maxWidth: '160px',
+                maxWidth: '100%',
             },
         }),
         secondary: (props: any) => ({
@@ -33,30 +33,23 @@ export const ButtonStyles = {
             borderRadius: '4px',
 
             '@media (max-width:480px)': {
-                maxWidth: '160px',
+                maxWidth: '100%',
             },
         }),
         link: (props: any) => ({
-            bg: 'white',
-            width: '160px',
-            height: '48px',
+            padding: '16px 32px',
             fontSize: '13px',
             fontWeight: '700',
             lineHeight: '18px',
-            color: 'textColor',
-            opacity: '0.5',
-            borderRadius: '0px',
+            borderRadius: '4px',
             border: '0px',
-            textTransform: 'uppercase',
+            bgColor: 'none',
+            color: '#D87D4A',
+            opacity: '1',
             textDecoration: 'none',
-            _hover: {
-                bgColor: 'none',
-                color: '#D87D4A',
-                opacity: '1',
-                textDecoration: 'none',
-            },
+
             '@media (max-width:480px)': {
-                maxWidth: '160px',
+                maxWidth: '100%',
             },
         }),
     },

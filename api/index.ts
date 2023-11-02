@@ -8,10 +8,10 @@ export const getPopularCars = async () => {
     } catch (error) {}
 }
 
-export const getAllCars = async () => {
+export const getAllCars = async (pageNumber: number) => {
     try {
         const res = await fetch(
-            `https://api.staging.myautochek.com/v1/inventory/car/search`,
+            `https://api.staging.myautochek.com/v1/inventory/car/search?pageNumber=${pageNumber}`,
         )
         const responseData = await res.json()
         return responseData
@@ -31,7 +31,7 @@ export const getCarById = async (carId: string) => {
 export const getCarMedia = async (carId: string) => {
     try {
         const res = await fetch(
-            `https://api.staging.myautochek.com/v1/inventory/car_media?carId=${carId}}`,
+            `https://api.staging.myautochek.com/v1/inventory/car_media?carId=${carId}`,
         )
         const responseData = await res.json()
         return responseData

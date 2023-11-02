@@ -1,7 +1,6 @@
 'use client'
-import { Box, Flex, Heading, Icon, Text, Image as Img } from '@chakra-ui/react'
+import { Box, Flex, Heading, Icon, Text, Image } from '@chakra-ui/react'
 import { nanoid } from 'nanoid'
-import Image from 'next/image'
 import React from 'react'
 import DownloadCard from '../Download'
 import { socialMediaLinks } from './data'
@@ -10,7 +9,15 @@ const HeroSection = () => {
     return (
         <Box position={'relative'} pb='300px'>
             <Flex justify={'space-between'} pt='72px'>
-                <Flex flexDir={'column'} gap='18px' pl='24px'>
+                <Flex
+                    flexDir={'column'}
+                    gap='18px'
+                    pl='24px'
+                    display={{
+                        base: 'none',
+                        xl: 'flex',
+                    }}
+                >
                     {socialMediaLinks.map(el => (
                         <Icon
                             key={nanoid()}
@@ -33,19 +40,21 @@ const HeroSection = () => {
                     flexDir={'column'}
                     align='center'
                     textAlign={'center'}
-                    w='70%'
+                    w={['100%', '100%', '100%', '100%', '70%']}
                 >
                     <Heading
                         variant={'h1'}
+                        fontSize={['32px', '48px', '56px']}
                         color='white'
-                        lineHeight={'84px'}
+                        lineHeight={['48px', '48px', '84px']}
                         mb='40px'
                     >
                         Fast And Easy Way To Rent{' '}
                         <Heading
                             as='span'
                             color='pryColor'
-                            fontSize={'56px'}
+                            fontSize={['32px', '48px', '56px']}
+                            lineHeight={['48px', '48px', '84px']}
                             fontWeight='700'
                         >
                             A Branded Car
@@ -63,19 +72,26 @@ const HeroSection = () => {
             </Flex>
             <Flex
                 align='center'
-                position={'absolute'}
-                top='280px'
+                display={{
+                    base: 'none',
+                    xl: 'flex',
+                }}
+                w='100%'
+                justify={['space-between']}
+                flexDir={['column', 'column', 'row']}
+                position={['absolute']}
+                top='300px'
                 left='-180px'
             >
                 <Box mt='60px'>
-                    <Image
-                        src='/images/hero-img.png'
-                        alt='car for rent'
-                        width={860}
-                        height={240}
-                    />
+                    <Image src='/images/hero-img.png' alt='car for rent' />
                 </Box>
-                <Flex align='center' gap={'32px'}>
+                <Flex
+                    align='center'
+                    gap={'32px'}
+                    flexDir={['column', 'column', 'row']}
+                    flexWrap='wrap'
+                >
                     <Box
                         border={'2px solid white'}
                         borderRight='2px solid #EB5A3D'

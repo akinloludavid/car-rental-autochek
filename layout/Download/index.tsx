@@ -16,7 +16,13 @@ const DownloadCard = () => {
             >
                 <Icon as={AiFillApple} fontSize='32px' />
                 <Box>
-                    <Text fontSize={'12px'} color='black' textAlign={'left'}>
+                    <Text
+                        fontSize={'12px'}
+                        lineHeight='12px'
+                        color='black'
+                        textAlign={'left'}
+                        mb='12px'
+                    >
                         Download on the
                     </Text>
                     <Heading
@@ -45,7 +51,13 @@ const DownloadCard = () => {
             >
                 <Icon as={FaGooglePlay} fontSize='32px' />
                 <Box>
-                    <Text fontSize={'12px'} color='black' textAlign={'left'}>
+                    <Text
+                        lineHeight='12px'
+                        fontSize={'12px'}
+                        color='black'
+                        textAlign={'left'}
+                        mb='12px'
+                    >
                         Get it from
                     </Text>
                     <Heading
@@ -64,7 +76,11 @@ const DownloadCard = () => {
     }
 
     return (
-        <Flex alignItems={'center'} gap='16px'>
+        <Flex
+            alignItems={'center'}
+            gap='16px'
+            flexDir={['column', 'column', 'row']}
+        >
             <AppleCard />
             <AndroidCard />
         </Flex>

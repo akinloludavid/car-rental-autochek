@@ -15,7 +15,7 @@ import { whyUs } from './data'
 
 const WhyChooseUs = () => {
     return (
-        <Box px='120px' pt='80px'>
+        <Box px={['24px', '72px', '120px']} py='80px'>
             <Heading textAlign={'center'} color='darkTextColor' mb='20px'>
                 Why Choose Us
             </Heading>
@@ -23,17 +23,28 @@ const WhyChooseUs = () => {
                 fontSize={'40px'}
                 textAlign={'center'}
                 color='black'
-                w='50%'
+                w={['100%', '100%', '80%', '50%']}
+                mb='24px'
                 mx='auto'
                 lineHeight='36px'
             >
                 We Offer the best experiences with our rental deals
             </Text>
-            <Grid templateColumns={'repeat(3,1fr)'}>
-                <GridItem colSpan={2}>
+            <Grid
+                templateColumns={[
+                    'repeat(1,1fr)',
+                    'repeat(1,1fr)',
+                    'repeat(2,1fr)',
+                    'repeat(2,1fr)',
+
+                    'repeat(3,1fr)',
+                ]}
+                rowGap='24px'
+            >
+                <GridItem colSpan={[1, 2]}>
                     <Image w='100%' src='/images/bentley.png' alt='bentley' />
                 </GridItem>
-                <GridItem display={'flex'} alignItems={'center'}>
+                <GridItem colSpan={[1]} display={'flex'} alignItems={'center'}>
                     <Flex flexDir={'column'} gap='18px'>
                         {whyUs.map(el => (
                             <Flex key={nanoid()} align='center' gap='16px'>
@@ -59,7 +70,10 @@ const WhyChooseUs = () => {
                                     <Text
                                         fontSize='12px'
                                         color='darkTextColor'
-                                        w='60%'
+                                        w={{
+                                            base: '100%',
+                                            xl: '60%',
+                                        }}
                                         lineHeight={'14px'}
                                     >
                                         {el.desc}

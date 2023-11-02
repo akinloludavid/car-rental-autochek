@@ -8,10 +8,10 @@ export const useGetPopularCars = () => {
     })
 }
 
-export const useGetAllCars = () => {
+export const useGetAllCars = (pageNumber: number) => {
     return useQuery({
-        queryKey: ['all-cars'],
-        queryFn: getAllCars,
+        queryKey: ['all-cars', pageNumber],
+        queryFn: () => getAllCars(pageNumber),
     })
 }
 
