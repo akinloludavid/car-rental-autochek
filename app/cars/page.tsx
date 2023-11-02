@@ -6,20 +6,37 @@ import { PageLoader } from '@/components/Loader'
 import Navbar from '@/layout/Navbar'
 import Pagination from '@/components/Pagination'
 import CarCard from '@/layout/TopRated/CarCard'
-import { Box, Flex, Grid, GridItem } from '@chakra-ui/react'
+import { Box, Flex, Grid, GridItem, Heading, Text } from '@chakra-ui/react'
 import { v4 as uuid } from 'uuid'
 import React, { useState } from 'react'
 
 const Cars = () => {
     const [pageNumber, setPageNumber] = useState(0)
-    const { data: allCars, isLoading: isLoadingAllCars } = useGetAllCars(
-        pageNumber + 1,
-    )
+    const {
+        data: allCars,
+        isLoading: isLoadingAllCars,
+        error,
+    } = useGetAllCars(pageNumber)
     const pageCount = Math.ceil(
         allCars?.pagination?.total / allCars?.pagination?.pageSize,
     )
+    const currentPage = allCars?.pagination?.currentPage
     const allCarsData = allCars?.result
 
+    if (error) {
+        return (
+            <Flex
+                align={'center'}
+                justify='center'
+                h='100vh'
+                flexDir={'column'}
+                gap='24px'
+            >
+                <Text color='darkTextColor'>Error Occurred</Text>
+                <Heading color='black'>{error.message}</Heading>
+            </Flex>
+        )
+    }
     return (
         <Box px={['24px', '72px', '120px']} pb='80px' bgColor='secBgColor'>
             <Navbar color='black' />
@@ -33,8 +50,9 @@ const Cars = () => {
                 <Pagination
                     pageCount={pageCount}
                     handlePageClick={e => {
-                        setPageNumber(e.selected)
+                        setPageNumber(e.selected + 1)
                     }}
+                    currentPage={currentPage}
                 />
             </Flex>
             {isLoadingAllCars ? (

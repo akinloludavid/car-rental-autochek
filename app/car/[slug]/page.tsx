@@ -24,8 +24,11 @@ import Carousel from '@/components/Carousel'
 import { SpinnerLoader } from '@/components/Loader'
 
 const CarDetails = ({ params }: { params: { slug: string } }) => {
-    const { data: carDetails, isLoading: isLoadingCarDetails } =
-        useGetCarDetails(params.slug)
+    const {
+        data: carDetails,
+        isLoading: isLoadingCarDetails,
+        error,
+    } = useGetCarDetails(params.slug)
     const { data: carMedia, isLoading: isLoadingCarMedia } = useGetCarMedia(
         params.slug,
     )
@@ -44,6 +47,21 @@ const CarDetails = ({ params }: { params: { slug: string } }) => {
         return (
             <Flex w='100vw' h='100vh' align={'center'} justify='center'>
                 <SpinnerLoader />
+            </Flex>
+        )
+    }
+
+    if (error) {
+        return (
+            <Flex
+                align={'center'}
+                justify='center'
+                h='100vh'
+                flexDir={'column'}
+                gap='24px'
+            >
+                <Text color='darkTextColor'>Error Occurred</Text>
+                <Heading color='black'>{error.message}</Heading>
             </Flex>
         )
     }

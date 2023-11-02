@@ -86,7 +86,11 @@ interface IPaginationProps {
     onPrev?: any
     currentPage?: any
 }
-const Pagination = ({ pageCount, handlePageClick }: IPaginationProps) => {
+const Pagination = ({
+    pageCount,
+    handlePageClick,
+    currentPage,
+}: IPaginationProps) => {
     return (
         <Flex
             py={5}
@@ -108,11 +112,11 @@ const Pagination = ({ pageCount, handlePageClick }: IPaginationProps) => {
                     breakLinkClassName='pagination-link'
                     previousLabel={<MdChevronLeft />}
                     onPageChange={handlePageClick}
-                    pageRangeDisplayed={3}
-                    marginPagesDisplayed={2}
                     pageCount={pageCount}
                     nextLabel={<MdChevronRight />}
-                    // renderOnZeroPageCount={null}
+                    // forcePage={currentPage}
+                    pageRangeDisplayed={3}
+                    marginPagesDisplayed={2}
                     activeClassName='active'
                     disabledClassName='disabled'
                     nextLinkClassName='next-page-link'

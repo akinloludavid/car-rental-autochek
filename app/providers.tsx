@@ -12,6 +12,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
             queries: {
                 refetchOnMount: false,
                 refetchOnWindowFocus: false,
+                retry: false,
             },
         },
     })
