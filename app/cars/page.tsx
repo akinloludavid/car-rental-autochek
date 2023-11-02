@@ -17,12 +17,11 @@ const Cars = () => {
         isLoading: isLoadingAllCars,
         error,
     } = useGetAllCars(pageNumber)
-    const pageCount = Math.ceil(
-        allCars?.pagination?.total / allCars?.pagination?.pageSize,
-    )
+    const pageSize = allCars?.pagination?.pageSize
+    const pageCount = Math.ceil(allCars?.pagination?.total / pageSize)
+    const total = allCars?.pagination?.total
     const currentPage = allCars?.pagination?.currentPage
     const allCarsData = allCars?.result
-
     if (error) {
         return (
             <Flex
@@ -47,13 +46,17 @@ const Cars = () => {
                 mt={['24px']}
             >
                 <GoBack />
-                <Pagination
-                    pageCount={pageCount}
-                    handlePageClick={e => {
-                        setPageNumber(e.selected + 1)
-                    }}
-                    currentPage={currentPage}
-                />
+                {!isLoadingAllCars && (
+                    <Pagination
+                        pageSize={pageSize}
+                        pageCount={pageCount}
+                        handlePageClick={e => {
+                            setPageNumber(e)
+                        }}
+                        currentPage={currentPage}
+                        total={total}
+                    />
+                )}
             </Flex>
             {isLoadingAllCars ? (
                 <Box mt='48px'>

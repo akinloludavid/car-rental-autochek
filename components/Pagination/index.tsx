@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { Flex } from '@chakra-ui/react'
-import ReactPaginate from 'react-paginate'
+import Paginate from 'rc-pagination'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 import styled from '@emotion/styled'
 
@@ -25,7 +25,7 @@ const PaginateWrapper = styled.div`
         margin: 0 5px;
         padding: 5px 10px;
     }
-    .pagination-item {
+    .rc-pagination-item {
         cursor: pointer;
         text-align: center;
         display: flex;
@@ -65,14 +65,14 @@ const PaginateWrapper = styled.div`
     .pagination-ellipsis {
         border-left: 1px solid gray;
     }
-    .active {
+    .rc-pagination-item-active {
         background-color: #fd5c3c;
         width: 30px;
         height: 30px;
         font-size: 14px;
         font-weight: 400;
         border-radius: 3px;
-        color: #f4f5f7;
+        color: #fff !important;
     }
     .disabled {
         cursor: not-allowed;
@@ -80,16 +80,19 @@ const PaginateWrapper = styled.div`
     }
 `
 interface IPaginationProps {
-    pageCount: number
+    pageCount?: number
     handlePageClick: (e: any) => void
+    pageSize: number
+    total: number
     onNext?: any
     onPrev?: any
     currentPage?: any
 }
 const Pagination = ({
-    pageCount,
     handlePageClick,
     currentPage,
+    pageSize,
+    total,
 }: IPaginationProps) => {
     return (
         <Flex
@@ -101,26 +104,18 @@ const Pagination = ({
             color={'lightMode.mainTextColor'}
         >
             <PaginateWrapper>
-                <ReactPaginate
-                    containerClassName='pagination-container'
-                    breakLabel='...'
-                    pageClassName='pagination-item'
-                    pageLinkClassName='pagination-link'
-                    nextClassName='next-pagination-item'
-                    previousClassName='prev-pagination-item'
-                    breakClassName='pagination-item'
-                    breakLinkClassName='pagination-link'
-                    previousLabel={<MdChevronLeft />}
-                    onPageChange={handlePageClick}
-                    pageCount={pageCount}
-                    nextLabel={<MdChevronRight />}
-                    // forcePage={currentPage}
-                    pageRangeDisplayed={3}
-                    marginPagesDisplayed={2}
-                    activeClassName='active'
-                    disabledClassName='disabled'
-                    nextLinkClassName='next-page-link'
-                    previousLinkClassName='prev-page-link'
+                <Paginate
+                    className='pagination-container'
+                    pageSize={pageSize}
+                    onChange={handlePageClick}
+                    current={currentPage}
+                    total={total}
+                    nextIcon={
+                        <MdChevronRight color='black' cursor={'pointer'} />
+                    }
+                    prevIcon={
+                        <MdChevronLeft color='black' cursor={'pointer'} />
+                    }
                 />
             </PaginateWrapper>
         </Flex>
