@@ -1,7 +1,7 @@
 'use client'
 import { Box, Flex, Heading, Icon, Text, Image } from '@chakra-ui/react'
-import { nanoid } from 'nanoid'
 import React from 'react'
+import { v4 as uuid } from 'uuid'
 import DownloadCard from '../Download'
 import { socialMediaLinks } from './data'
 
@@ -20,7 +20,7 @@ const HeroSection = () => {
                 >
                     {socialMediaLinks.map(el => (
                         <Icon
-                            key={nanoid()}
+                            key={uuid()}
                             border='1px solid white'
                             borderRadius={'50%'}
                             w='36px'

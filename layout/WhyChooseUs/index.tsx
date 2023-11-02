@@ -9,7 +9,7 @@ import {
     Grid,
     GridItem,
 } from '@chakra-ui/react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import React from 'react'
 import { whyUs } from './data'
 
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
                 <GridItem colSpan={[1]} display={'flex'} alignItems={'center'}>
                     <Flex flexDir={'column'} gap='18px'>
                         {whyUs.map(el => (
-                            <Flex key={nanoid()} align='center' gap='16px'>
+                            <Flex key={uuid()} align='center' gap='16px'>
                                 <Box
                                     minW='32px'
                                     minH='32px'

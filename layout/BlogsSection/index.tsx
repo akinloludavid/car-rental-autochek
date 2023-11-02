@@ -2,7 +2,7 @@ import { Box, Grid, GridItem, Heading } from '@chakra-ui/react'
 import React from 'react'
 import BlogsCard from './BlogsCard'
 import { blogData } from './data'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 
 const BlogSection = () => {
     return (
@@ -26,7 +26,7 @@ const BlogSection = () => {
                 gap='32px'
             >
                 {blogData.map(el => (
-                    <GridItem key={nanoid()}>
+                    <GridItem key={uuid()}>
                         <BlogsCard {...el} />
                     </GridItem>
                 ))}

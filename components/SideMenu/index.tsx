@@ -3,18 +3,16 @@ import {
     Drawer,
     DrawerBody,
     DrawerFooter,
-    DrawerHeader,
     DrawerOverlay,
     DrawerContent,
     DrawerCloseButton,
     Button,
     ButtonGroup,
     Icon,
-    color,
     Flex,
     Link as NavLink,
 } from '@chakra-ui/react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import React from 'react'
 import { BiSearch } from 'react-icons/bi'
 import Link from 'next/link'
@@ -45,7 +43,7 @@ const SideMenu = ({
                                     fontWeight={'500'}
                                     as={Link}
                                     color={'white'}
-                                    key={nanoid()}
+                                    key={uuid()}
                                     href={link.route}
                                 >
                                     {link.label}

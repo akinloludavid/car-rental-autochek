@@ -7,7 +7,7 @@ import Navbar from '@/layout/Navbar'
 import Pagination from '@/components/Pagination'
 import CarCard from '@/layout/TopRated/CarCard'
 import { Box, Flex, Grid, GridItem } from '@chakra-ui/react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import React, { useState } from 'react'
 
 const Cars = () => {
@@ -15,7 +15,6 @@ const Cars = () => {
     const { data: allCars, isLoading: isLoadingAllCars } = useGetAllCars(
         pageNumber + 1,
     )
-    console.log(allCars)
     const pageCount = Math.ceil(
         allCars?.pagination?.total / allCars?.pagination?.pageSize,
     )
@@ -56,7 +55,7 @@ const Cars = () => {
                         gap='24px'
                     >
                         {allCarsData?.map((car: any, idx: number) => (
-                            <AnimatedView key={nanoid()} delay={idx * 0.1}>
+                            <AnimatedView key={uuid()} delay={idx * 0.1}>
                                 <GridItem>
                                     <CarCard {...car} />
                                 </GridItem>

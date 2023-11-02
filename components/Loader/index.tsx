@@ -6,7 +6,7 @@ import {
     Spinner,
 } from '@chakra-ui/react'
 import React from 'react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 export const PageLoader = () => {
     return (
         <Grid
@@ -19,7 +19,7 @@ export const PageLoader = () => {
             gap='24px'
         >
             {new Array(8).fill(0).map(_ => (
-                <GridItem key={nanoid()}>
+                <GridItem key={uuid()}>
                     <Skeleton h='180px' />
                     <SkeletonText noOfLines={4} mb='12' />
                     <Skeleton h='48px' />
@@ -33,7 +33,7 @@ export const TabLoaders = () => {
     return (
         <Grid my='24px' templateColumns={['repeat(6,1fr)']} gap='24px'>
             {new Array(6).fill(0).map(_ => (
-                <GridItem key={nanoid()}>
+                <GridItem key={uuid()}>
                     <Skeleton h='40px' />
                 </GridItem>
             ))}

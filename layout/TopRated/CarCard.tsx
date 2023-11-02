@@ -12,8 +12,6 @@ import {
 } from '@chakra-ui/react'
 import React from 'react'
 import { AiFillStar, AiOutlineCalendar } from 'react-icons/ai'
-import { BiSolidDoorOpen } from 'react-icons/bi'
-import { TbAirConditioning } from 'react-icons/tb'
 import { GiGearStickPattern } from 'react-icons/gi'
 import { GrLocation } from 'react-icons/gr'
 import { useRouter } from 'next/navigation'

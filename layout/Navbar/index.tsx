@@ -11,7 +11,7 @@ import { BiSearch } from 'react-icons/bi'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { navLinks } from './data'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import { AiOutlineMenu } from 'react-icons/ai'
 import SideMenu from '@/components/SideMenu'
 const Navbar = ({ color = 'white' }: { color?: string }) => {
@@ -41,7 +41,7 @@ const Navbar = ({ color = 'white' }: { color?: string }) => {
                         fontWeight={'500'}
                         as={Link}
                         color={color}
-                        key={nanoid()}
+                        key={uuid()}
                         href={link.route}
                     >
                         {link.label}

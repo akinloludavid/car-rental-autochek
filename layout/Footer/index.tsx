@@ -22,7 +22,7 @@ import {
     socialMediaLinks,
     supportLinks,
 } from './data'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import { FaEnvelope } from 'react-icons/fa'
 
 const Footer = () => {
@@ -62,7 +62,7 @@ const Footer = () => {
                         {servicesLinks.map(el => (
                             <NavLink
                                 color='white'
-                                key={nanoid()}
+                                key={uuid()}
                                 as={Link}
                                 href={el.route}
                             >
@@ -79,7 +79,7 @@ const Footer = () => {
                         {resourcesLinks.map(el => (
                             <NavLink
                                 color='white'
-                                key={nanoid()}
+                                key={uuid()}
                                 as={Link}
                                 href={el.route}
                             >
@@ -96,7 +96,7 @@ const Footer = () => {
                         {supportLinks.map(el => (
                             <NavLink
                                 color='white'
-                                key={nanoid()}
+                                key={uuid()}
                                 as={Link}
                                 href={el.route}
                             >
@@ -113,7 +113,7 @@ const Footer = () => {
                     <Flex gap='8px'>
                         {socialMediaLinks.map(el => (
                             <Box
-                                key={nanoid()}
+                                key={uuid()}
                                 width='32px'
                                 height='32px'
                                 border='1px solid white'

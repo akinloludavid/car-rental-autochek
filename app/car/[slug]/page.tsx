@@ -19,13 +19,11 @@ import { AiOutlineCalendar } from 'react-icons/ai'
 import { PiEngine } from 'react-icons/pi'
 import NairaSymbol from '@/components/NairaSymbol'
 import { numberFormat } from '@/utils/helper'
-import { useRouter } from 'next/navigation'
 import GoBack from '@/components/GoBack'
 import Carousel from '@/components/Carousel'
 import { SpinnerLoader } from '@/components/Loader'
 
 const CarDetails = ({ params }: { params: { slug: string } }) => {
-    const router = useRouter()
     const { data: carDetails, isLoading: isLoadingCarDetails } =
         useGetCarDetails(params.slug)
     const { data: carMedia, isLoading: isLoadingCarMedia } = useGetCarMedia(

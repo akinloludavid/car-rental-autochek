@@ -6,7 +6,7 @@ import {
     Image,
     Flex,
 } from '@chakra-ui/react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import Link from 'next/link'
 import React from 'react'
 
@@ -36,7 +36,7 @@ const BlogsCard = ({ image, title, desc, tags }: IBlogsCard) => {
                         fontWeight='600'
                         px='16px'
                         py='4px'
-                        key={nanoid()}
+                        key={uuid()}
                     >
                         #{tag}
                     </Box>

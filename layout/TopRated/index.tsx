@@ -14,7 +14,7 @@ import {
     MenuList,
 } from '@chakra-ui/react'
 import React, { useState } from 'react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import CarCard from './CarCard'
 import { FaArrowRight } from 'react-icons/fa'
 import { useRouter } from 'next/navigation'
@@ -69,7 +69,7 @@ const TopRated = () => {
                     px={['0px', '180px']}
                 >
                     {popularCars?.slice(0, 5)?.map((car: any) => (
-                        <GridItem key={nanoid()}>
+                        <GridItem key={uuid()}>
                             <Button
                                 py='8px'
                                 gap='8px'
@@ -110,7 +110,7 @@ const TopRated = () => {
                                         py='8px'
                                         gap='8px'
                                         h='auto'
-                                        key={nanoid()}
+                                        key={uuid()}
                                         fontSize='13px'
                                         onClick={() => setSelectedCarId(car.id)}
                                     >
@@ -146,7 +146,7 @@ const TopRated = () => {
                         {allCarsData
                             ?.slice(0, 8)
                             ?.map((car: any, idx: number) => (
-                                <AnimatedView key={nanoid()} delay={idx * 0.1}>
+                                <AnimatedView key={uuid()} delay={idx * 0.1}>
                                     <GridItem>
                                         <CarCard {...car} />
                                     </GridItem>

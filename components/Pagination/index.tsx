@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react'
+import React from 'react'
 import { Flex } from '@chakra-ui/react'
 import ReactPaginate from 'react-paginate'
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'

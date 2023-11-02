@@ -9,7 +9,7 @@ import {
     Image,
     GridItem,
 } from '@chakra-ui/react'
-import { nanoid } from 'nanoid'
+import { v4 as uuid } from 'uuid'
 import React from 'react'
 import { AiFillStar } from 'react-icons/ai'
 
@@ -49,7 +49,7 @@ const Testimonials = () => {
                     <Flex align={'center'} gap='2px'>
                         {new Array(5).fill(0).map(el => (
                             <Icon
-                                key={nanoid()}
+                                key={uuid()}
                                 as={AiFillStar}
                                 color='pryColor'
                             />

@@ -1,0 +1,1262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders blog section unchanged 1`] = `
+<div>
+  <div
+    class="css-1399xa2"
+  >
+    <h2
+      class="chakra-heading css-5qfilz"
+    >
+      Read Our Stories
+    </h2>
+    <div
+      class="css-emz2r"
+    >
+      <div
+        class="css-1gvp5h0"
+      >
+        <div
+          class="css-jd103j"
+        >
+          <div
+            class="css-15cvk8o"
+          >
+            <img
+              alt=""
+              class="chakra-image css-0"
+              src="/images/blogs/car1.png"
+            />
+          </div>
+          <div
+            class="css-axw7ok"
+          >
+            <div
+              class="css-1dk37fu"
+            >
+              #
+              car
+            </div>
+            <div
+              class="css-1dk37fu"
+            >
+              #
+              engine
+            </div>
+          </div>
+          <h2
+            class="chakra-heading css-1coh6gr"
+          >
+            Start a blog to reach you
+          </h2>
+          <p
+            class="chakra-text css-1tu934z"
+          >
+            They are very soft and don't leave any pain. He likes to take care of his family
+          </p>
+          <a
+            class="chakra-link css-0"
+            href="/"
+          >
+            Find Out More 
+            &gt;
+          </a>
+        </div>
+      </div>
+      <div
+        class="css-1gvp5h0"
+      >
+        <div
+          class="css-jd103j"
+        >
+          <div
+            class="css-15cvk8o"
+          >
+            <img
+              alt=""
+              class="chakra-image css-0"
+              src="/images/blogs/car2.png"
+            />
+          </div>
+          <div
+            class="css-axw7ok"
+          >
+            <div
+              class="css-1dk37fu"
+            >
+              #
+              car
+            </div>
+            <div
+              class="css-1dk37fu"
+            >
+              #
+              engine
+            </div>
+          </div>
+          <h2
+            class="chakra-heading css-1coh6gr"
+          >
+            Start a blog to reach you
+          </h2>
+          <p
+            class="chakra-text css-1tu934z"
+          >
+            They are very soft and don't leave any pain. He likes to take care of his family
+          </p>
+          <a
+            class="chakra-link css-0"
+            href="/"
+          >
+            Find Out More 
+            &gt;
+          </a>
+        </div>
+      </div>
+      <div
+        class="css-1gvp5h0"
+      >
+        <div
+          class="css-jd103j"
+        >
+          <div
+            class="css-15cvk8o"
+          >
+            <img
+              alt=""
+              class="chakra-image css-0"
+              src="/images/blogs/car3.png"
+            />
+          </div>
+          <div
+            class="css-axw7ok"
+          >
+            <div
+              class="css-1dk37fu"
+            >
+              #
+              car
+            </div>
+            <div
+              class="css-1dk37fu"
+            >
+              #
+              engine
+            </div>
+          </div>
+          <h2
+            class="chakra-heading css-1coh6gr"
+          >
+            Start a blog to reach you
+          </h2>
+          <p
+            class="chakra-text css-1tu934z"
+          >
+            They are very soft and don't leave any pain. He likes to take care of his family
+          </p>
+          <a
+            class="chakra-link css-0"
+            href="/"
+          >
+            Find Out More 
+            &gt;
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders blog section unchanged 2`] = `
+<div>
+  <div
+    class="css-lkommg"
+  >
+    <div
+      class="css-1dbugrt"
+    >
+      <div
+        class="css-ejst2c"
+      >
+        <h2
+          class="chakra-heading css-1flyc9m"
+        >
+          Testimonials
+        </h2>
+        <p
+          class="chakra-text css-m8t1uk"
+        >
+          Our Client's Reviews and Testimonials
+        </p>
+        <p
+          class="chakra-text css-0"
+        >
+          The majority of our users tell us that readable content distracts readers majority of our users tell us is readable.
+        </p>
+        <p
+          class="chakra-text css-0"
+        >
+          There are amazing people who work here who are down to earth and are willing to work with anyone! Their priority is to take care of their own and make sure you're satisfied! It is take care of their own and make sure you're satisfied
+        </p>
+        <div
+          class="css-j2at52"
+        >
+          <svg
+            class="chakra-icon css-r3d2d1"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+            />
+          </svg>
+          <svg
+            class="chakra-icon css-r3d2d1"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+            />
+          </svg>
+          <svg
+            class="chakra-icon css-r3d2d1"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+            />
+          </svg>
+          <svg
+            class="chakra-icon css-r3d2d1"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+            />
+          </svg>
+          <svg
+            class="chakra-icon css-r3d2d1"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 1024 1024"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+            />
+          </svg>
+          <p
+            class="chakra-text css-1isemmb"
+          >
+            5.0
+          </p>
+        </div>
+        <div
+          class="css-k5rr6j"
+        >
+          <img
+            alt=""
+            class="chakra-image css-a2t6r4"
+            src="/images/wade.jpg"
+          />
+          <div
+            class="css-0"
+          >
+            <h2
+              class="chakra-heading css-16iqw5x"
+            >
+              Wade Warren
+            </h2>
+            <p
+              class="chakra-text css-0"
+            >
+              Owner, Co working space
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-1apj4et"
+    >
+      <img
+        class="chakra-image css-1snmjsk"
+        src="/images/benz.png"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders footer unchanged 1`] = `
+<div>
+  <div
+    class="css-1e9r3sh"
+  >
+    <div
+      class="css-136w8y"
+    >
+      <div
+        class="css-wn0se6"
+      >
+        <h2
+          class="chakra-heading css-0"
+        >
+          Car Rental
+        </h2>
+        <p
+          class="chakra-text css-0"
+        >
+          Anywhere, anytime, we always provide the best service
+        </p>
+        <div
+          class="css-axw7ok"
+        >
+          <svg
+            class="chakra-icon css-r3d2d1"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+            />
+          </svg>
+          <p
+            class="chakra-text css-0"
+          >
+            Youremail@.com
+          </p>
+        </div>
+      </div>
+      <div
+        class="css-1iv9klp"
+      >
+        <h2
+          class="chakra-heading css-1wvv5q9"
+        >
+          Services
+        </h2>
+        <div
+          class="css-yd8sa2"
+        >
+          <a
+            class="chakra-link css-kbn7if"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/download"
+          >
+            Download
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/pricing"
+          >
+            Pricing
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/about"
+          >
+            About
+          </a>
+        </div>
+      </div>
+      <div
+        class="css-1iv9klp"
+      >
+        <h2
+          class="chakra-heading css-1wvv5q9"
+        >
+          Resources
+        </h2>
+        <div
+          class="css-yd8sa2"
+        >
+          <a
+            class="chakra-link css-kbn7if"
+            href="/"
+          >
+            Home
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/download"
+          >
+            Download
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/pricing"
+          >
+            Pricing
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/about"
+          >
+            About
+          </a>
+        </div>
+      </div>
+      <div
+        class="css-1iv9klp"
+      >
+        <h2
+          class="chakra-heading css-1wvv5q9"
+        >
+          Support
+        </h2>
+        <div
+          class="css-yd8sa2"
+        >
+          <a
+            class="chakra-link css-kbn7if"
+            href="/"
+          >
+            FAQ
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/"
+          >
+            How it works
+          </a>
+          <a
+            class="chakra-link css-kbn7if"
+            href="/"
+          >
+            Features
+          </a>
+        </div>
+      </div>
+      <div
+        class="css-1513z5z"
+      >
+        <h2
+          class="chakra-heading css-1wvv5q9"
+        >
+          Connect with us
+        </h2>
+        <div
+          class="css-1i27l4i"
+        >
+          <div
+            class="css-1paeggy"
+          >
+            <svg
+              class="chakra-icon css-p7mfmb"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 9H17.5L17 11H13V20H11V11H7V9H11V7.12777C11 5.34473 11.1857 4.69816 11.5343 4.04631C11.8829 3.39446 12.3945 2.88288 13.0463 2.53427C13.6982 2.18565 14.3447 2 16.1278 2C16.6498 2 17.1072 2.05 17.5 2.15V4H16.1278C14.8041 4 14.401 4.07784 13.9895 4.29789C13.6862 4.46011 13.4601 4.68619 13.2979 4.98951C13.0778 5.40096 13 5.80407 13 7.12777V9Z"
+              />
+            </svg>
+          </div>
+          <div
+            class="css-1paeggy"
+          >
+            <svg
+              class="chakra-icon css-p7mfmb"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+              />
+            </svg>
+          </div>
+          <div
+            class="css-1paeggy"
+          >
+            <svg
+              class="chakra-icon css-p7mfmb"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"
+              />
+            </svg>
+          </div>
+          <div
+            class="css-1paeggy"
+          >
+            <svg
+              class="chakra-icon css-p7mfmb"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M512 96C282.6 96 96 282.6 96 512s186.6 416 416 416 416-186.6 416-416S741.4 96 512 96zm275.1 191.8c49.5 60.5 79.5 137.5 80.2 221.4-11.7-2.5-129.2-26.3-247.4-11.4-2.5-6.1-5-12.2-7.6-18.3-7.4-17.3-15.3-34.6-23.6-51.5C720 374.3 779.6 298 787.1 287.8zM512 157.2c90.3 0 172.8 33.9 235.5 89.5-6.4 9.1-59.9 81-186.2 128.4-58.2-107-122.7-194.8-132.6-208 27.3-6.6 55.2-9.9 83.3-9.9zM360.9 191c9.4 12.8 72.9 100.9 131.7 205.5C326.4 440.6 180 440 164.1 439.8c23.1-110.3 97.4-201.9 196.8-248.8zM156.7 512.5c0-3.6.1-7.3.2-10.9 15.5.3 187.7 2.5 365.2-50.6 10.2 19.9 19.9 40.1 28.8 60.3-4.7 1.3-9.4 2.7-14 4.2C353.6 574.9 256.1 736.4 248 750.1c-56.7-63-91.3-146.3-91.3-237.6zM512 867.8c-82.2 0-157.9-28-218.1-75 6.4-13.1 78.3-152 278.7-221.9l2.3-.8c49.9 129.6 70.5 238.3 75.8 269.5A350.46 350.46 0 0 1 512 867.8zm198.5-60.7c-3.6-21.6-22.5-125.6-69-253.3C752.9 536 850.7 565.2 862.8 569c-15.8 98.8-72.5 184.2-152.3 238.1z"
+              />
+            </svg>
+          </div>
+        </div>
+        <p
+          class="chakra-text css-9lwr4s"
+        >
+          Subscribe to our newsletter
+        </p>
+        <div
+          class="chakra-input__group css-1rzor6k"
+          data-group="true"
+        >
+          <input
+            class="chakra-input css-4sx1ae"
+            placeholder="Enter your email"
+          />
+          <div
+            class="chakra-input__right-element css-dp9r5f"
+          >
+            <button
+              class="chakra-button css-1iuc6wu"
+              type="button"
+            >
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-p2f0cw"
+    />
+    <p
+      class="chakra-text css-udh06r"
+    >
+      Copyright 2023 car rental. All Rights Reserved
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders herosection unchanged 1`] = `
+<div>
+  <div
+    class="css-ue64jt"
+  >
+    <div
+      class="css-zc058l"
+    >
+      <div
+        class="css-j665j4"
+      >
+        <svg
+          class="chakra-icon css-e9l01o"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13 9H17.5L17 11H13V20H11V11H7V9H11V7.12777C11 5.34473 11.1857 4.69816 11.5343 4.04631C11.8829 3.39446 12.3945 2.88288 13.0463 2.53427C13.6982 2.18565 14.3447 2 16.1278 2C16.6498 2 17.1072 2.05 17.5 2.15V4H16.1278C14.8041 4 14.401 4.07784 13.9895 4.29789C13.6862 4.46011 13.4601 4.68619 13.2979 4.98951C13.0778 5.40096 13 5.80407 13 7.12777V9Z"
+          />
+        </svg>
+        <svg
+          class="chakra-icon css-e9l01o"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"
+          />
+        </svg>
+        <svg
+          class="chakra-icon css-e9l01o"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M512 96C282.6 96 96 282.6 96 512s186.6 416 416 416 416-186.6 416-416S741.4 96 512 96zm275.1 191.8c49.5 60.5 79.5 137.5 80.2 221.4-11.7-2.5-129.2-26.3-247.4-11.4-2.5-6.1-5-12.2-7.6-18.3-7.4-17.3-15.3-34.6-23.6-51.5C720 374.3 779.6 298 787.1 287.8zM512 157.2c90.3 0 172.8 33.9 235.5 89.5-6.4 9.1-59.9 81-186.2 128.4-58.2-107-122.7-194.8-132.6-208 27.3-6.6 55.2-9.9 83.3-9.9zM360.9 191c9.4 12.8 72.9 100.9 131.7 205.5C326.4 440.6 180 440 164.1 439.8c23.1-110.3 97.4-201.9 196.8-248.8zM156.7 512.5c0-3.6.1-7.3.2-10.9 15.5.3 187.7 2.5 365.2-50.6 10.2 19.9 19.9 40.1 28.8 60.3-4.7 1.3-9.4 2.7-14 4.2C353.6 574.9 256.1 736.4 248 750.1c-56.7-63-91.3-146.3-91.3-237.6zM512 867.8c-82.2 0-157.9-28-218.1-75 6.4-13.1 78.3-152 278.7-221.9l2.3-.8c49.9 129.6 70.5 238.3 75.8 269.5A350.46 350.46 0 0 1 512 867.8zm198.5-60.7c-3.6-21.6-22.5-125.6-69-253.3C752.9 536 850.7 565.2 862.8 569c-15.8 98.8-72.5 184.2-152.3 238.1z"
+          />
+        </svg>
+      </div>
+      <div
+        class="css-rd7abs"
+      >
+        <h2
+          class="chakra-heading css-el3o5q"
+        >
+          Fast And Easy Way To Rent
+           
+          <span
+            class="chakra-heading css-3v02as"
+          >
+            A Branded Car
+          </span>
+        </h2>
+        <p
+          class="chakra-text css-1dms6hg"
+        >
+          Discover RentalX car rental options in USA with rent a car
+        </p>
+        <p
+          class="chakra-text css-1nmlz0y"
+        >
+          Select from a range of car options and local specials
+        </p>
+        <div
+          class="css-1h7zco5"
+        >
+          <div
+            class="css-1v2f1so"
+          >
+            <svg
+              class="chakra-icon css-3fd6kr"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"
+              />
+            </svg>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-15ok7ou"
+              >
+                Download on the
+              </p>
+              <h3
+                class="chakra-heading css-1xp274h"
+              >
+                Apple Store
+              </h3>
+            </div>
+          </div>
+          <div
+            class="css-1v2f1so"
+          >
+            <svg
+              class="chakra-icon css-3fd6kr"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"
+              />
+            </svg>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-1n06srq"
+              >
+                Get it from
+              </p>
+              <h3
+                class="chakra-heading css-nj0xkc"
+              >
+                Google Play
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-168qmjk"
+    >
+      <div
+        class="css-1o3oomb"
+      >
+        <img
+          alt="car for rent"
+          class="chakra-image css-0"
+          src="/images/hero-img.png"
+        />
+      </div>
+      <div
+        class="css-13zrbu"
+      >
+        <div
+          class="css-1uf7zt4"
+        >
+          <p
+            class="chakra-text css-1fde65q"
+          >
+            222
+          </p>
+          <p
+            class="chakra-text css-1qxtz39"
+          >
+            KM/H
+          </p>
+          <p
+            class="chakra-text css-1vryd59"
+          >
+            TOP SPEED
+          </p>
+        </div>
+        <div
+          class="css-18qj4nc"
+        >
+          <p
+            class="chakra-text css-1fde65q"
+          >
+            92
+          </p>
+          <p
+            class="chakra-text css-1qxtz39"
+          >
+            C
+          </p>
+          <p
+            class="chakra-text css-1vryd59"
+          >
+            ENGINE TEMP
+          </p>
+        </div>
+        <div
+          class="css-eguam2"
+        >
+          <p
+            class="chakra-text css-1fde65q"
+          >
+            65
+          </p>
+          <p
+            class="chakra-text css-1qxtz39"
+          >
+            HP
+          </p>
+          <p
+            class="chakra-text css-1vryd59"
+          >
+            POWER CAR
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="css-ue64jt"
+  >
+    <div
+      class="css-zc058l"
+    >
+      <div
+        class="css-j665j4"
+      >
+        <svg
+          class="chakra-icon css-e9l01o"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13 9H17.5L17 11H13V20H11V11H7V9H11V7.12777C11 5.34473 11.1857 4.69816 11.5343 4.04631C11.8829 3.39446 12.3945 2.88288 13.0463 2.53427C13.6982 2.18565 14.3447 2 16.1278 2C16.6498 2 17.1072 2.05 17.5 2.15V4H16.1278C14.8041 4 14.401 4.07784 13.9895 4.29789C13.6862 4.46011 13.4601 4.68619 13.2979 4.98951C13.0778 5.40096 13 5.80407 13 7.12777V9Z"
+          />
+        </svg>
+        <svg
+          class="chakra-icon css-e9l01o"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1 717.1 625.5 717.1 512 625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7 645.3 438.6 645.3 512 585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9 47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1-18.2-7.3-31.8-16.1-45.8-30.2-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9 7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2 14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"
+          />
+        </svg>
+        <svg
+          class="chakra-icon css-e9l01o"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M512 96C282.6 96 96 282.6 96 512s186.6 416 416 416 416-186.6 416-416S741.4 96 512 96zm275.1 191.8c49.5 60.5 79.5 137.5 80.2 221.4-11.7-2.5-129.2-26.3-247.4-11.4-2.5-6.1-5-12.2-7.6-18.3-7.4-17.3-15.3-34.6-23.6-51.5C720 374.3 779.6 298 787.1 287.8zM512 157.2c90.3 0 172.8 33.9 235.5 89.5-6.4 9.1-59.9 81-186.2 128.4-58.2-107-122.7-194.8-132.6-208 27.3-6.6 55.2-9.9 83.3-9.9zM360.9 191c9.4 12.8 72.9 100.9 131.7 205.5C326.4 440.6 180 440 164.1 439.8c23.1-110.3 97.4-201.9 196.8-248.8zM156.7 512.5c0-3.6.1-7.3.2-10.9 15.5.3 187.7 2.5 365.2-50.6 10.2 19.9 19.9 40.1 28.8 60.3-4.7 1.3-9.4 2.7-14 4.2C353.6 574.9 256.1 736.4 248 750.1c-56.7-63-91.3-146.3-91.3-237.6zM512 867.8c-82.2 0-157.9-28-218.1-75 6.4-13.1 78.3-152 278.7-221.9l2.3-.8c49.9 129.6 70.5 238.3 75.8 269.5A350.46 350.46 0 0 1 512 867.8zm198.5-60.7c-3.6-21.6-22.5-125.6-69-253.3C752.9 536 850.7 565.2 862.8 569c-15.8 98.8-72.5 184.2-152.3 238.1z"
+          />
+        </svg>
+      </div>
+      <div
+        class="css-rd7abs"
+      >
+        <h2
+          class="chakra-heading css-el3o5q"
+        >
+          Fast And Easy Way To Rent
+           
+          <span
+            class="chakra-heading css-3v02as"
+          >
+            A Branded Car
+          </span>
+        </h2>
+        <p
+          class="chakra-text css-1dms6hg"
+        >
+          Discover RentalX car rental options in USA with rent a car
+        </p>
+        <p
+          class="chakra-text css-1nmlz0y"
+        >
+          Select from a range of car options and local specials
+        </p>
+        <div
+          class="css-1h7zco5"
+        >
+          <div
+            class="css-1v2f1so"
+          >
+            <svg
+              class="chakra-icon css-3fd6kr"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M747.4 535.7c-.4-68.2 30.5-119.6 92.9-157.5-34.9-50-87.7-77.5-157.3-82.8-65.9-5.2-138 38.4-164.4 38.4-27.9 0-91.7-36.6-141.9-36.6C273.1 298.8 163 379.8 163 544.6c0 48.7 8.9 99 26.7 150.8 23.8 68.2 109.6 235.3 199.1 232.6 46.8-1.1 79.9-33.2 140.8-33.2 59.1 0 89.7 33.2 141.9 33.2 90.3-1.3 167.9-153.2 190.5-221.6-121.1-57.1-114.6-167.2-114.6-170.7zm-105.1-305c50.7-60.2 46.1-115 44.6-134.7-44.8 2.6-96.6 30.5-126.1 64.8-32.5 36.8-51.6 82.3-47.5 133.6 48.4 3.7 92.6-21.2 129-63.7z"
+              />
+            </svg>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-15ok7ou"
+              >
+                Download on the
+              </p>
+              <h3
+                class="chakra-heading css-1xp274h"
+              >
+                Apple Store
+              </h3>
+            </div>
+          </div>
+          <div
+            class="css-1v2f1so"
+          >
+            <svg
+              class="chakra-icon css-3fd6kr"
+              fill="currentColor"
+              focusable="false"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"
+              />
+            </svg>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-1n06srq"
+              >
+                Get it from
+              </p>
+              <h3
+                class="chakra-heading css-nj0xkc"
+              >
+                Google Play
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-168qmjk"
+    >
+      <div
+        class="css-1o3oomb"
+      >
+        <img
+          alt="car for rent"
+          class="chakra-image css-0"
+          src="/images/hero-img.png"
+        />
+      </div>
+      <div
+        class="css-13zrbu"
+      >
+        <div
+          class="css-1uf7zt4"
+        >
+          <p
+            class="chakra-text css-1fde65q"
+          >
+            222
+          </p>
+          <p
+            class="chakra-text css-1qxtz39"
+          >
+            KM/H
+          </p>
+          <p
+            class="chakra-text css-1vryd59"
+          >
+            TOP SPEED
+          </p>
+        </div>
+        <div
+          class="css-18qj4nc"
+        >
+          <p
+            class="chakra-text css-1fde65q"
+          >
+            92
+          </p>
+          <p
+            class="chakra-text css-1qxtz39"
+          >
+            C
+          </p>
+          <p
+            class="chakra-text css-1vryd59"
+          >
+            ENGINE TEMP
+          </p>
+        </div>
+        <div
+          class="css-eguam2"
+        >
+          <p
+            class="chakra-text css-1fde65q"
+          >
+            65
+          </p>
+          <p
+            class="chakra-text css-1qxtz39"
+          >
+            HP
+          </p>
+          <p
+            class="chakra-text css-1vryd59"
+          >
+            POWER CAR
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders why choose us unchanged 1`] = `
+<div>
+  <div
+    class="css-14vhcvk"
+  >
+    <h2
+      class="chakra-heading css-1wexohy"
+    >
+      Why Choose Us
+    </h2>
+    <p
+      class="chakra-text css-1cicvji"
+    >
+      We Offer the best experiences with our rental deals
+    </p>
+    <div
+      class="css-9poqg8"
+    >
+      <div
+        class="css-1xu82zo"
+      >
+        <img
+          alt="bentley"
+          class="chakra-image css-8atqhb"
+          src="/images/bentley.png"
+        />
+      </div>
+      <div
+        class="css-pdfwzj"
+      >
+        <div
+          class="css-1u1uayy"
+        >
+          <div
+            class="css-j0ozid"
+          >
+            <div
+              class="css-1d7nzyr"
+            >
+              <svg
+                class="chakra-icon css-uqqaxt"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"
+                />
+              </svg>
+            </div>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-c0ln72"
+              >
+                Experience Driver
+              </p>
+              <p
+                class="chakra-text css-1zmb1b"
+              >
+                Don't have a driver. Don't worry, we have many experienced drivers for you.
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-j0ozid"
+          >
+            <div
+              class="css-1d7nzyr"
+            >
+              <svg
+                class="chakra-icon css-uqqaxt"
+                fill="none"
+                focusable="false"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <path
+                  d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"
+                />
+                <path
+                  d="M12 18V6"
+                />
+              </svg>
+            </div>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-c0ln72"
+              >
+                Best price guaranteed
+              </p>
+              <p
+                class="chakra-text css-1zmb1b"
+              >
+                Find a lower price? We will refund you 100% the difference
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-j0ozid"
+          >
+            <div
+              class="css-1d7nzyr"
+            >
+              <svg
+                class="chakra-icon css-uqqaxt"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+                />
+                <path
+                  d="M13 7h-2v5.414l3.293 3.293 1.414-1.414L13 11.586z"
+                />
+              </svg>
+            </div>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-c0ln72"
+              >
+                24-hour car delivery
+              </p>
+              <p
+                class="chakra-text css-1zmb1b"
+              >
+                Book your car anytime and we will deliver it directly to you.
+              </p>
+            </div>
+          </div>
+          <div
+            class="css-j0ozid"
+          >
+            <div
+              class="css-1d7nzyr"
+            >
+              <svg
+                class="chakra-icon css-uqqaxt"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M690.1 377.4c5.9 0 11.8.2 17.6.5-24.4-128.7-158.3-227.1-319.9-227.1C209 150.8 64 271.4 64 420.2c0 81.1 43.6 154.2 111.9 203.6a21.5 21.5 0 0 1 9.1 17.6c0 2.4-.5 4.6-1.1 6.9-5.5 20.3-14.2 52.8-14.6 54.3-.7 2.6-1.7 5.2-1.7 7.9 0 5.9 4.8 10.8 10.8 10.8 2.3 0 4.2-.9 6.2-2l70.9-40.9c5.3-3.1 11-5 17.2-5 3.2 0 6.4.5 9.5 1.4 33.1 9.5 68.8 14.8 105.7 14.8 6 0 11.9-.1 17.8-.4-7.1-21-10.9-43.1-10.9-66 0-135.8 132.2-245.8 295.3-245.8zm-194.3-86.5c23.8 0 43.2 19.3 43.2 43.1s-19.3 43.1-43.2 43.1c-23.8 0-43.2-19.3-43.2-43.1s19.4-43.1 43.2-43.1zm-215.9 86.2c-23.8 0-43.2-19.3-43.2-43.1s19.3-43.1 43.2-43.1 43.2 19.3 43.2 43.1-19.4 43.1-43.2 43.1zm586.8 415.6c56.9-41.2 93.2-102 93.2-169.7 0-124-120.8-224.5-269.9-224.5-149 0-269.9 100.5-269.9 224.5S540.9 847.5 690 847.5c30.8 0 60.6-4.4 88.1-12.3 2.6-.8 5.2-1.2 7.9-1.2 5.2 0 9.9 1.6 14.3 4.1l59.1 34c1.7 1 3.3 1.7 5.2 1.7a9 9 0 0 0 6.4-2.6 9 9 0 0 0 2.6-6.4c0-2.2-.9-4.4-1.4-6.6-.3-1.2-7.6-28.3-12.2-45.3-.5-1.9-.9-3.8-.9-5.7.1-5.9 3.1-11.2 7.6-14.5zM600.2 587.2c-19.9 0-36-16.1-36-35.9 0-19.8 16.1-35.9 36-35.9s36 16.1 36 35.9c0 19.8-16.2 35.9-36 35.9zm179.9 0c-19.9 0-36-16.1-36-35.9 0-19.8 16.1-35.9 36-35.9s36 16.1 36 35.9a36.08 36.08 0 0 1-36 35.9z"
+                />
+              </svg>
+            </div>
+            <div
+              class="css-0"
+            >
+              <p
+                class="chakra-text css-c0ln72"
+              >
+                24/7 Technical Support
+              </p>
+              <p
+                class="chakra-text css-1zmb1b"
+              >
+                Have a question? Contact our support anytime you need
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
